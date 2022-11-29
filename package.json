@@ -1,7 +1,6 @@
 {
   "name": "fin-assist",
   "version": "0.1.0",
-  "homepage": "http://thekavikumar.github.io/fin-assist",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
