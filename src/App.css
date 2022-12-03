@@ -23,10 +23,13 @@ a:hover {
 }
 
 .app {
+	flex-direction: column;
+	display: flex;
 	overflow: hidden;
 }
 
 .navbar {
+	/* flex: 0.2; */
 	background-color: rgb(255, 255, 255);
 }
 
@@ -53,6 +56,7 @@ a:hover {
 	background-color: #ffffff;
 	display: flex;
 	padding: 20px;
+	width: 100%;
 	align-items: center;
 }
 .ant-typography.logo {
@@ -90,16 +94,16 @@ a:hover {
 }
 
 .ant-menu {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .ant-menu-root.ant-menu-vertical,
 .ant-menu-root.ant-menu-vertical-left,
 .ant-menu-root.ant-menu-vertical-right,
 .ant-menu-root.ant-menu-inline {
-  padding: 20px;
-  align-items: center;
+	padding: 20px;
+	align-items: center;
 }
 
 .loader {
