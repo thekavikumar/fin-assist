@@ -23,12 +23,13 @@ a:hover {
 }
 
 .app {
+  flex-direction: column;
   display: flex;
   overflow: hidden;
 }
 
 .navbar {
-  flex: 0.2;
+  /* flex: 0.2; */
   background-color: rgb(255, 255, 255);
 }
 
@@ -40,11 +41,12 @@ a:hover {
   padding: 20px;
 }
 .nav-container {
-  position: fixed;
-  left: 20px;
+  /* position: fixed; */
+  /* left: 20px;
   margin: 10px;
-  height: 100vh;
+  height: 100vh; */
   margin: 0px;
+  display: flex;
   background-color: rgb(255, 255, 255);
 }
 
@@ -70,6 +72,19 @@ a:hover {
   font-size: 1.2rem !important;
   background-color: var(--bgSecondary) !important;
   border: none !important;
+}
+
+.ant-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-menu-root.ant-menu-vertical,
+.ant-menu-root.ant-menu-vertical-left,
+.ant-menu-root.ant-menu-vertical-right,
+.ant-menu-root.ant-menu-inline {
+  padding: 20px;
+  align-items: center;
 }
 
 .loader {
