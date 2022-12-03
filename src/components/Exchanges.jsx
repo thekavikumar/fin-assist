@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 
 import { Collapse, Row, Col, Typography } from "antd";
@@ -53,3 +54,4 @@ const Exchanges = () => {
 };
 
 export default Exchanges;
+/* eslint-enable */
