@@ -23,22 +23,11 @@ a:hover {
 }
 
 .app {
-<<<<<<< HEAD
 	overflow: hidden;
 }
 
 .navbar {
 	background-color: rgb(255, 255, 255);
-=======
-  flex-direction: column;
-  display: flex;
-  overflow: hidden;
-}
-
-.navbar {
-  /* flex: 0.2; */
-  background-color: rgb(255, 255, 255);
->>>>>>> f6842a6dbe333260aa3302707a973e027c343422
 }
 
 .main {
@@ -48,7 +37,6 @@ a:hover {
 	padding: 20px;
 }
 .nav-container {
-<<<<<<< HEAD
 	background-color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: space-between;
@@ -59,15 +47,6 @@ a:hover {
 	top: 0;
 	width: 100%;
 	z-index: 99;
-=======
-  /* position: fixed; */
-  /* left: 20px;
-  margin: 10px;
-  height: 100vh; */
-  margin: 0px;
-  display: flex;
-  background-color: rgb(255, 255, 255);
->>>>>>> f6842a6dbe333260aa3302707a973e027c343422
 }
 
 .logo-container {
