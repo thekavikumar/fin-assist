@@ -1,7 +1,7 @@
 {
   "name": "fin-assist",
   "version": "0.1.0",
-  "homepage": "https:/fin-assist.co",
+  "homepage": "https://thekavikumar.github.io/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
@@ -25,8 +25,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
