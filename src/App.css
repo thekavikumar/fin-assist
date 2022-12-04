@@ -425,8 +425,18 @@ a:hover {
   background-color: #001529;
   display: flex;
   flex-direction: column;
+  gap: 10px;
   padding: 20px;
   align-items: center;
+}
+
+.url {
+  margin: 5px;
+}
+
+.footer_link {
+  font-size: 16px;
+  padding: 5px;
 }
 
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
@@ -443,7 +453,7 @@ a:hover {
 .buddy {
   width: 100%;
   border-radius: 8px;
-  background-color: #ff50ce;
+  background-color: #8cf1fa;
 }
 
 .container > h1 {

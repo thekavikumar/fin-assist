@@ -45,14 +45,26 @@ const App = () => (
           level={5}
           style={{ color: "white", textAlign: "center" }}
         >
-          Copyright © 2021
-          <Link to="/">Cryptoverse Inc.</Link> <br />
+          Copyright © 2022
+          <Link to="/" className="url">
+            {" "}
+            fin-assist.co
+          </Link>{" "}
           All Rights Reserved.
         </Typography.Title>
         <Space>
-          <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
+          <Link to="/" className="footer_link">
+            Home
+          </Link>
+          <Link to="/exchanges" className="footer_link">
+            Exchanges
+          </Link>
+          <Link to="/news" className="footer_link">
+            News
+          </Link>
+          <Link to="/news" className="footer_link">
+            Cryptocurrencies
+          </Link>
         </Space>
       </div>
     </div>
