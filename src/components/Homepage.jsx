@@ -8,6 +8,7 @@ import { useGetCryptosQuery } from "../services/cryptoApi";
 import Cryptocurrencies from "./Cryptocurrencies";
 import News from "./News";
 import Loader from "./Loader";
+import Buddy from "./Buddy";
 
 const { Title } = Typography;
 
@@ -64,8 +65,7 @@ const Homepage = () => {
           </Row>
         </div>
         <div className="buddy">
-          <h1>Hi there</h1>
-          <h1>This is Expense Buddy</h1>
+          <Buddy />
         </div>
       </div>
       <div className="home-heading-container">
@@ -79,7 +79,7 @@ const Homepage = () => {
       <Cryptocurrencies simplified />
       <div className="home-heading-container">
         <Title level={2} className="home-title">
-          Top News About Crypto
+          Top News About
         </Title>
         <Title level={3} className="show-more">
           <Link to="/news">Show more</Link>
