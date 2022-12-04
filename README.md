@@ -4,10 +4,8 @@ Our team has personally invested in many financial ventures and experienced many
 This led us to build this idea which we believed would be a better way for beginners to understand and safely experiment with many forms of investment.
 
 # What it does
-the project aims to create a single-user interface for all your 
-basic financial needs. It has a live price tracker that helps you keep up to date
-with the latest prices so that you can make an educated decision
-on what you want to invest in.
+The Fin Assist aims to give the user a clear picture of Crypto and how to invest and where to invest.
+Also on what to invest so that they can make more profit from it. It's a beginner-friendly application, it also provides the user with live tracking of the crypto so that the user can make the correct decision at that particular time. This project also provides live updates through email which are stored in MongoDB.
 
 # How we built it
 The project was built using the MERN stack
