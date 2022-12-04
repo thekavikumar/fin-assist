@@ -12,8 +12,8 @@ on what you want to invest in.
 # How we buit it
 The project was built using the MERN stack
 
-- ReactJS used to make the UI
-- MongoDB is used for data storage and database
+- ReactJS used to make the UI - make the navbar, the price tiles, the menus etc
+- MongoDB is used for data storage and database - we connected the database to take in login details and personalise the experience
 - Github was used to hold the code
 - Github Pages was used to host the website
 - ChartJS was used to plot the graphs for the currencies
@@ -41,6 +41,9 @@ During this journey, we faced a lot of difficulties
 - Thanks to many open source technologies, we were able to implement all that we imagined without much trouble
 - We learnt how to properly implement many web technologies 
 - We learnt the importance of teamwork and how essential it is to build anything
+- We learnt the creation of web Apps using ReactJS,using ChartJS to plot graphs
+- using github pages to host the web app and using axios as http client
+
 
 # What's next for the project
 - As finance enthusiasts ourselves, we believe that financial knowledge should be shared and must be helpful to others
