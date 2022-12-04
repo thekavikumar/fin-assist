@@ -451,8 +451,49 @@ a:hover {
 }
 
 .buddy {
-	background: rgb(253, 209, 209);
 	width: 100%;
 	border-radius: 8px;
+	background-color: #ff50ce;
+}
+
+.container > h1 {
 	padding: 20px;
+	font-size: 30px;
+	margin: 10px;
+	margin-left: 15px;
+}
+
+.details {
+	margin-left: 25px;
+}
+
+.details > input {
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-right: 30px;
+	outline: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 40%;
+}
+
+.details > button {
+	padding: 10px;
+	background-color: #0071bd;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.main-class {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.emailicon {
+	width: 150px;
+	margin-right: 120px;
+	margin-top: -80px;
 }
