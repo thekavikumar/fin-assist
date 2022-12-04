@@ -34,7 +34,7 @@ During this journey, we faced a lot of difficulties
 - We were able to use the domain from GoDaddy properly
 - The issue with the DNS between GoDaddy and Github Pages was solved 
 - Even though we were in a time shortage, we pulled through and finished the project and we felt our results were much beyond expectations
-![alt text](https://clipartix.com/wp-content/uploads/2018/03/cartoon-trophy-2018-1.jpg)
+
 
 # What we learned
 - We learned how to build a project from start to finish and how vital a proper timeline is
