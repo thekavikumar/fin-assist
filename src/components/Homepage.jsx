@@ -79,7 +79,7 @@ const Homepage = () => {
       <Cryptocurrencies simplified />
       <div className="home-heading-container">
         <Title level={2} className="home-title">
-          Top News About
+          Top News About Crypto
         </Title>
         <Title level={3} className="show-more">
           <Link to="/news">Show more</Link>
