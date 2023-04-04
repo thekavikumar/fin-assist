@@ -1,9 +1,17 @@
-import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
+/* eslint-disable */
+import React from "react";
+import { Switch, Route, Link } from "react-router-dom";
+import { Layout, Typography, Space } from "antd";
 
-import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
-import './App.css';
+import {
+  Exchanges,
+  Homepage,
+  News,
+  Cryptocurrencies,
+  CryptoDetails,
+  Navbar,
+} from "./components";
+import "./App.css";
 
 const App = () => (
   <div className="app">
@@ -33,16 +41,30 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
-          <Link to="/">
-            Cryptoverse Inc.
-          </Link> <br />
+        <Typography.Title
+          level={5}
+          style={{ color: "white", textAlign: "center" }}
+        >
+          Copyright © 2022
+          <Link to="/" className="url">
+            {" "}
+            fin-assist.co
+          </Link>{" "}
           All Rights Reserved.
         </Typography.Title>
         <Space>
-          <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
+          <Link to="/" className="footer_link">
+            Home
+          </Link>
+          <Link to="/exchanges" className="footer_link">
+            Exchanges
+          </Link>
+          <Link to="/news" className="footer_link">
+            News
+          </Link>
+          <Link to="/news" className="footer_link">
+            Cryptocurrencies
+          </Link>
         </Space>
       </div>
     </div>
@@ -50,3 +72,4 @@ const App = () => (
 );
 
 export default App;
+/* eslint-enable */
